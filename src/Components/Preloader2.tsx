@@ -33,14 +33,9 @@ const Preloader2 = ({data,totalPages}:any) => {
     const type =  searchParams.get('type')
     const subCategory   =  searchParams.get('subCategory')
  
-
     const selectedCars : any = collectionCars?.find(x=>  x?.title?.toLocaleLowerCase() === decodeURIComponent(collection.toLocaleLowerCase()) )    
     console.log('selectedCars: ', selectedCars);
 
-  
-
-
-    // const {type} = useSearchParams();
 
 
 

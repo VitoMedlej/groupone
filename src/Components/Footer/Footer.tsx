@@ -14,12 +14,7 @@ const Footer = () => (
         <div className="site-footer__description">
           <div className='logos cursor'>
 
-            <Link href="/">
-              {/* <a><h1 className="site-logo"><Logo />E-Shop</h1></a> */}
-              {/* https://res.cloudinary.com/dwxm8f25f/image/upload/v1675357773/logo_ghli5e.jpg */}
-              {/* https://res.cloudinary.com/dwxm8f25f/image/upload/v1675713948/logo_sktnut_1_jwy2hk.png */}
-            <img className='img ' src='https://ucarecdn.com/5262b9e9-1a00-4d46-8848-c02f68e4c14b/logo.jpg' alt="Shine Plus Car Spa Lebanon Logo" />
-            </Link>
+          
           </div>
           <Typography component='h1' sx={{ fontSize: '.95em',color:"2b2b2b" }}  className='footer-p '>
           At Shine Plus Car Spa, we offer top-notch car care services in Lebanon. From expert car wash and interior detailing to exterior treatments, window tinting, vinyl wrap, upholstery repair, body paint, and more – trust us for a sparkling clean and well-maintained ride.

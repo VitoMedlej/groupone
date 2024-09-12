@@ -23,18 +23,18 @@ const ScrollUp = () => {
     </IconButton>
 </Paper>
     </Box> */}
-    <a style={{textDecoration:'none',borderRadius:'2000px',background:'bg'}} href={`https://wa.me/${process.env.NEXT_PUBLIC_WA}`} target='_blank' rel='noopener'>
+    <a style={{textDecoration:'none',borderRadius:'2000px',background:'white'}} href={`https://wa.me/${process.env.NEXT_PUBLIC_WA}`} target='_blank' rel='noopener'>
     
     <Btn sx={{ border:'1px solid transparent',
     borderRadius:25,
-    background:'#161e21  !important',
+    background:'white  !important',
     boxShadow:`rgba(0, 0, 0, 0.24) 0px 3px 8px`,
-    padding:0,':hover':{background:'transparent'}}} className='bg'>
-      <Box className='center bg flex align-center' sx={{width:'30px',ml:1}}>
+    padding:0,':hover':{background:'transparent'}}} className=''>
+      <Box className='center  flex align-center' sx={{width:'30px',ml:1}}>
       <img src="https://www.7979.org.my/uploads/1/2/6/3/126376279/whatsapp-icon_1.png" alt="Whatsapp Icon" className="img" />
       </Box>
-         <Box  className='bg white' sx={{mr:1,py:1,px:2,borderRadius:25,color:''}}>
-         +961 3 545 717
+         <Box  className=' ' sx={{color:'black !Important',mr:1,py:1,px:2,borderRadius:25}}>
+         +961 123 456 789
       </Box>
    
     </Btn>

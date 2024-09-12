@@ -12,7 +12,7 @@ export const metadata = {
     title: 'Shine Plus Car Spa - Premier Car Care Services in Lebanon',
     description: `At Shine Plus Car Spa, we offer top-notch car care services in Lebanon. From expert car wash and interior detailing to exterior treatments, window tinting, vinyl wrap, upholstery repair, body paint, and more – trust us for a sparkling clean and well-maintained ride.`,
     icons: {
-        icon: `https://ucarecdn.com/5262b9e9-1a00-4d46-8848-c02f68e4c14b/logo.jpg`
+        icon: `https://ucarecdn.com/e8c67931-1ec6-4c5a-a405-619c5f86e32a/grouponelogo.jpg`
     }
 }
 
@@ -24,7 +24,7 @@ export default function RootLayout({children} : {
             <head>
             <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" />
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;900&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet"/>
             </head>
 
             <body className=''>

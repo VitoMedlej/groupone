@@ -34,7 +34,7 @@ const Index = () => {
         </Typography>
         
         {/* <Box sx={{width:'100%',height:'400px'}}>
-            <img src="https://ucarecdn.com/5262b9e9-1a00-4d46-8848-c02f68e4c14b/logo.jpg" alt="" className="img contain" />
+            <img src="https://ucarecdn.com/e8c67931-1ec6-4c5a-a405-619c5f86e32a/grouponelogo.jpg" alt="" className="img contain" />
         </Box> */}
     
         <Box sx={{my:4}}>

@@ -5,16 +5,12 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import {IoIosMenu} from 'react-icons/io'
-// import {AiOutlinePhone} from 'react-icons/ci'
 
 import { useEffect, useState} from 'react';
-// import { CartContext, DrawerContext } from '../../../pages/_app'; import
 import SearchModal from './SearchModal';
 import Link from 'next/link';
 import { Container, Divider, Typography} from '@mui/material';
-// import { loadState } from '../../Utils/LocalstorageFn';
 import {useRouter} from 'next/navigation';
-// import {AiOutlinePhone, AiOutlineSearch, AiOutlineMenu} from 'react-icons/ai'
 import {AiOutlinePhone} from 'react-icons/ai'
 import {AiOutlineCar} from 'react-icons/ai'
 
@@ -71,8 +67,8 @@ export default function Navbar() {
                 width:'100%',
             margin: '0 auto',
         }}>
-                  <Box className='flex items-center row'
-                   sx={{justifyContent:'flex-end',background:'#cf2935',py:.3}}>
+                  <Box className='flex items-center bg2 row'
+                   sx={{justifyContent:'flex-end',py:.3}}>
 <Container className='flex ' sx={{margin:0,justifyContent:'space-between',maxWidth:{xs:'100%',sm:'500px'}}}>
 
             <Box className='flex row items-center'>
@@ -107,11 +103,11 @@ export default function Navbar() {
             <Toolbar
      id='navy3'
 
-    className='center bg relative  flex  w100  auto'
+    className='center  relative  flex  w100  auto'
 
                 sx={{
                 
-                    // background:'black',
+                    background:'white',
                     maxWidth:'xl',
                 px:'0 !important',
                 
@@ -130,7 +126,7 @@ export default function Navbar() {
 }}>
     <img
         className='img contain'
-        src={`https://ucarecdn.com/5262b9e9-1a00-4d46-8848-c02f68e4c14b/logo.jpg`}
+        src={`https://ucarecdn.com/e8c67931-1ec6-4c5a-a405-619c5f86e32a/grouponelogo.jpg`}
         alt="Shine Plus Car Spa  logo"/>
 </Box>
 </Link>

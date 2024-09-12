@@ -2,11 +2,11 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Inter", sans-serif !important;
 }
 
 *, h1, h2, h3, h4, h5, h6, p, button, input, select, textarea, a {
-  font-family: "Montserrat", sans-serif !important;
+  font-family: "Inter", sans-serif !important;
 }
 
 .w100 {
@@ -14,7 +14,7 @@ body {
 }
 
 .color3 {
-  color: #161e21 !important;
+  color: #008fcc !important;
 }
 
 .img {
@@ -29,15 +29,15 @@ body {
 }
 
 .bg2 {
-  background: #cf2935 !important;
+  background: #008fcc !important;
 }
 
 .borderColor {
-  border-color: #161e21 !important;
+  border-color: #262163 !important;
 }
 
 .borderColor2 {
-  border-color: #cf2935 !important;
+  border-color: #008fcc !important;
 }
 
 .rounded {
@@ -45,11 +45,11 @@ body {
 }
 
 .color2 {
-  color: #cf2935 !important;
+  color: #008fcc !important;
 }
 
 .color {
-  color: #161e21 !important;
+  color: #262163 !important;
 }
 
 .flex {
@@ -93,7 +93,7 @@ body {
 }
 
 .bg {
-  background: #161e21 !important;
+  background: #262163 !important;
 }
 
 .white {
@@ -146,7 +146,7 @@ button[disabled] {
 }
 
 .clr {
-  color: #161e21 !important;
+  color: #262163 !important;
 }
 
 .justify-around {
@@ -154,7 +154,11 @@ button[disabled] {
 }
 
 .clr2 {
-  color: #cf2935 !important;
+  color: #008fcc !important;
+}
+
+.clr3 {
+  color: #008fcc !important;
 }
 
 .auto {

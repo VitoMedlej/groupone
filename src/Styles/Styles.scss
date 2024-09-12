@@ -2,20 +2,20 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: "Inter", sans-serif !important;
 
 
 }
 * ,h1,h2,h3,h4,h5,h6 ,p,button,input,select,textarea,a{
-    font-family: 'Montserrat', sans-serif !important;
+    font-family: "Inter", sans-serif !important;
 
     }
 .w100 {
     width:100%
 }
-$color : #161e21 !important;
-$color2 : #cf2935 !important;
-$color3 : #161e21 !important;
+$color : #262163 !important;
+$color2 : #008fcc !important;
+$color3 : #008fcc !important;
 .color3 {
     color: $color3;
 }
@@ -131,6 +131,9 @@ button[disabled]{
 }
 .clr2 {
     color : $color2
+}
+.clr3 {
+    color : $color3
 }
 .auto{
     margin: 0 auto;

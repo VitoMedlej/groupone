@@ -8,7 +8,6 @@ import "swiper/css/navigation";
 import { useRouter } from 'next/navigation';
 import { Autoplay } from 'swiper';
 import Btn from './Btn/Btn';
-import useLanguage from '@/Hooks/useLanguage';
 
 
 
@@ -19,7 +18,6 @@ const Preloader4 = ({res}:{res:any}) => {
      ])
      const redir = () => {
         router.push('/')
-        // console.log('abc')
      }
     useEffect(() => {
         console.log('res: ', res);
@@ -29,7 +27,6 @@ const Preloader4 = ({res}:{res:any}) => {
         setImgs(res?.MainCarousel)
     }
     }, [])
-  const {text} = useLanguage()
     
     return (
         <Box
