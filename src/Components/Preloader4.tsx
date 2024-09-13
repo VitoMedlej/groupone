@@ -89,14 +89,14 @@ const Preloader4 = ({res}:{res:any}) => {
                                                           <Typography 
                                                           className='clr2 center text-center auto'
                                 sx={{fontWeight:700,fontSize:{xs:'1.185em',sm:'1.2em'},mt:1,maxWidth:'600px'}}>
-                                   Shine Plus Car Spa
+                                   GroupOne CMI
 
                                 </Typography>
                                 <Typography 
                                 
                                 sx={{color:'white',fontSize:{xs:'2.15em',sm:'3.1em',md:'3.65em',lg:'3.5em'},fontWeight:'900'}}>
                              
-                           Explore Shine Plus Car Spa Offerings
+                           Explore GroupOne CMI Offerings
                                 </Typography>
                                 <Typography 
                                 className='center auto text-center'

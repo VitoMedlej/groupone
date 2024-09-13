@@ -47,7 +47,7 @@ export default function Navbar() {
         flexWrap: 'wrap',
                 width:'100%',
                 boxShadow:'none',
-        background:'black',
+        background:'white',
         border: 'none',
         px:0,
         flexGrow: 1
@@ -62,7 +62,7 @@ export default function Navbar() {
                 transform:'translateY(1px)',
                 boxShadow:'none',
 
-                background:'black',
+                background:'white',
             // maxWidth: 'lg',
                 width:'100%',
             margin: '0 auto',
@@ -87,7 +87,7 @@ export default function Navbar() {
             <img src="https://www.svgrepo.com/show/520798/instagram.svg" alt="" className="img" />
                 </Box>
             <Typography sx={{color:'black',fontSize:'.70em',textAlign:'end',fontWeight:600}}>
-            @shineplus_carspa
+            @GroupOne CMI_carspa
             </Typography>
             </Box>
             <a className='decor-none' href={`https://wa.me/${process.env.NEXT_PUBLIC_WA}`}>
@@ -127,7 +127,7 @@ export default function Navbar() {
     <img
         className='img contain'
         src={`https://ucarecdn.com/e8c67931-1ec6-4c5a-a405-619c5f86e32a/grouponelogo.jpg`}
-        alt="Shine Plus Car Spa  logo"/>
+        alt="GroupOne CMI  logo"/>
 </Box>
 </Link>
                 <Box
@@ -170,11 +170,11 @@ export default function Navbar() {
                             onClick={() => router.push('/rental/collection')}
                             sx={{
                                 margin : '8px',padding:0,
-                            color: 'white'
+                            color: 'black'
                         }}>
                             {/* <Badge color='primary' badgeContent={`${localCart.length || '0'}`}> */}
 
-                                <AiOutlinePhone color='white'/>
+                                <AiOutlinePhone color='black'/>
                             {/* </Badge> */}
                             {/* <Typography>
                                 Cart
@@ -189,13 +189,13 @@ export default function Navbar() {
                             aria-label="menu"
                             sx={{
                             margin : '8px',padding:0,
-                            color: 'white',
+                            color: 'black',
                             // margin: '0.1em',
                             display: {
                                 md: 'none'
                             }
                         }}>
-                            <IoIosMenu color='white'/>
+                            <IoIosMenu color='black'/>
                         </IconButton>
                    
    {/* <a href={`https://wa.me/${process.env.NEXT_PUBLIC_WA}`} target='_blank' className='flex decor-none' rel='noopener'>

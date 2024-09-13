@@ -7,7 +7,7 @@ import React from 'react'
 let style1 = {
   color: 'white',
   background: 'black',
-  border:'1px solid #cf2935',
+  border:'1px solid black',
   borderRadius: '30px', 
   transition: 'background 0.3s ease, transform 0.2s ease',
 

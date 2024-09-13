@@ -90,7 +90,7 @@ PreLoader = ({data,resImages}:any) => {
     {
       "name": "Gym & Pool Sterilization",
       "text": "Specialized systems to keep gyms, swimming pools, and public recreational areas hygienic and free of pathogens.",
-      "img": "https://images.pexels.com/photos/27229066/pexels-photo-27229066/free-photo-of-floatie-in-plam-trees-on-water.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+      "img": "https://img.freepik.com/free-photo/gym-disinfection-healthcare_342744-66.jpg?w=900&t=st=1650394533~exp=1650395133~hmac=6b056fe2391ba1cb2aa65a48a1edd03195fb9bcedc1e50a394fe2fef540f8e8d"
     },
     {
       "name": "Residential Air & Water Safety",
@@ -140,16 +140,16 @@ PreLoader = ({data,resImages}:any) => {
                                 
 <Box sx={{mt:4}} className='bg'>
     
-    <Container sx={{py:{xs:8,sm:12}}}>
+    <Container sx={{py:{xs:4,sm:8}}}>
       <Grid className='center items-center' container >
 
     <Grid  xs={12} sm={4} md={5}>
 
-    <Typography className='clr2' sx={{fontWeight:700,fontSize:'1.15em',fontStyle:'italic',maxWidth:'800px',}}>
-    DRY CLEANING
+    <Typography className='clr2' sx={{fontWeight:700,fontSize:'1.15em',maxWidth:'800px',}}>
+    Our Technology
       </Typography>
-      <Typography className='white' sx={{pr:{sm:1,md:2},fontWeight:900,fontSize:{xs:'2.5em',sm:'2em',md:'2.5em'},maxWidth:'800px',fontStyle:'italic',textTransform:'uppercase'}}>
-      Dry cleaning any dirt inside the car and trunk
+      <Typography className='white' sx={{pr:{sm:1,md:2},fontWeight:900,fontSize:{xs:'2.15em',sm:'2em',md:'2.5em'},maxWidth:'800px',fontStyle:'italic',textTransform:'uppercase'}}>
+      UVC Sterilization: The Power of Light
       </Typography>
       <Btn
       sx={{mt:1,mb:{xs:4,sm:0}}}
@@ -160,13 +160,172 @@ PreLoader = ({data,resImages}:any) => {
     </Grid>
 
 <Grid xs={12} sm={8} md={7}>
-    <Box>
-      <img style={{borderRadius:'5px'}} src="https://ucarecdn.com/53fae8a6-f75c-4f41-bfd9-8d11652690d3/pic.PNG" alt="" className="img" />
+    <Box sx={{height:{xs:'300px',md:'450px'}}}>
+      <img style={{borderRadius:'5px'}} src="https://cdn-prod.medicalnewstoday.com/content/images/articles/324/324284/empty-operating-room.jpg" alt="" className="img" />
     </Box>
 </Grid>
       </Grid>
     </Container>
+
+
+
 </Box>
+
+
+<Box sx={{mb:0}} className='bg'>
+    
+    <Container sx={{py:{xs:4,sm:8}}}>
+      <Grid className='center items-center' container >
+
+
+      <Grid xs={12} sm={8} md={7}>
+    <Box sx={{height:{xs:'300px',md:'450px'}}}>
+      <img style={{borderRadius:'5px'}} src="https://blog.chloramineconsulting.com/hs-fs/hubfs/orenda%20enzymes%2C%20orenda%20cv600%2C%20pool%20clarity%2C%20underwater%20pool%20with%20enzyme.png?width=1880&height=890&name=orenda%20enzymes%2C%20orenda%20cv600%2C%20pool%20clarity%2C%20underwater%20pool%20with%20enzyme.png" alt="" className="img" />
+    </Box>
+</Grid>                          
+
+    <Grid sx={{pl:{xs:0,sm:4}}}  xs={12} sm={4} md={5}>
+    <Typography className='clr2' sx={{fontWeight:700,fontSize:'1.15em',maxWidth:'800px',}}>
+    Swimming Pools
+      </Typography>
+      <Typography className='white' sx={{fontWeight:900,fontSize:{xs:'2.15em',sm:'2em',md:'2.5em'},maxWidth:'800px',fontStyle:'italic',textTransform:'uppercase'}}>
+      Sterilization Solutions for Every Industry
+      </Typography>
+      <Btn
+      sx={{mt:1,mb:{xs:4,sm:0}}}
+      onClick={()=>router.push('/services')}
+      >
+        View Services
+      </Btn>
+    </Grid>
+
+
+      </Grid>
+    </Container>
+
+
+
+</Box>
+
+
+<Box sx={{mb:4}} className='bg'>
+    
+    <Container sx={{py:{xs:4,sm:8}}}>
+      <Grid className='center items-center' container >
+
+    <Grid  xs={12} sm={4} md={5}>
+
+    <Typography className='clr2' sx={{fontWeight:700,fontSize:'1.15em',maxWidth:'800px',}}>
+      The GroupOne CMI Team
+      </Typography>
+      <Typography className='white' sx={{pr:{sm:1,md:2},fontWeight:900,fontSize:{xs:'2.15em',sm:'2em',md:'2.5em'},maxWidth:'800px',fontStyle:'italic',textTransform:'uppercase'}}>
+      Combating viruses and bacteria everywhere
+      </Typography>
+      <Btn
+      sx={{mt:1,mb:{xs:4,sm:0}}}
+      onClick={()=>router.push('/services')}
+      >
+        View Services
+      </Btn>
+    </Grid>
+
+<Grid xs={12} sm={8} md={7}>
+    <Box sx={{height:{xs:'300px',md:'450px'}}}>
+      <img style={{borderRadius:'5px'}} src="https://imgscf.slidemembers.com/docs/1/1/442/covid-19_cleaning_and_disinfecting_powerpoint_presentations_441706.jpg" alt="" className="img" />
+    </Box>
+</Grid>
+      </Grid>
+    </Container>
+
+
+
+</Box>
+
+
+<Container>
+      <Box className='flex col center text-center' sx={{my:6}}>
+      <Typography
+component={'h1'}
+    className='sectionTitle   text-center box'
+    sx={{
+ 
+    fontSize: {
+        xs: '2em',
+        sm: '3em'
+    },
+    padding:.5,
+    fontWeight: '900'
+}}>
+GroupOne CMI - Setting the Standard in Sterilization
+</Typography>
+{/* <Typography
+component={'p'}
+    className='sectionTitle   text-center box'
+    sx={{
+ 
+    fontSize: {
+        xs: '.8em',
+        sm: '1em'
+    },
+    padding:.5,
+    fontWeight: '300'
+}}>
+Collection of our latest video reels from our social media!
+</Typography> */}
+      </Box>
+      <Box sx={{gap:'.5em'}} className='flex wrap row center   auto'>
+
+        {    
+
+[
+  {
+    title: "Advanced Surface Disinfection in Action",
+    text: "Watch how our state-of-the-art equipment eliminates 99.9% of harmful viruses and bacteria from surfaces, providing a safe and sterile environment.",
+    video: "https://videos.pexels.com/video-files/4201911/4201911-uhd_2560_1440_25fps.mp4",
+  },
+  {
+    title: "Air Sterilization with UVC Technology",
+    text: "See our UVC technology at work, sterilizing indoor and outdoor air in various environments—from residential spaces to large institutions. Ensuring safe, breathable air for everyone.",
+    video: "https://videos.pexels.com/video-files/4145292/4145292-uhd_2560_1440_25fps.mp4",
+  },
+  {
+    title: "Room Sterilization",
+    text: "A step-by-step demonstration of our full-room sterilization process using advanced rays to ensure complete elimination of pathogens in hospitals, gyms, and other critical areas.",
+    video: "https://videos.pexels.com/video-files/6197564/6197564-uhd_2560_1440_25fps.mp4",
+  },
+]
+          .map((video:any)=>{
+              console.log('video: ', video);
+
+                    return <Box
+                    
+                    sx={{maxWidth:{xs:'100%',sm:'48%',md:'32%'}}} key={video.title}>
+                        {/* <Typography  sx={{pb:2,fontSize:'1.1em',fontWeight:600}} className='clr'>
+                            {
+                              video.title
+                            }
+                        </Typography> */}
+                  
+                        <Box sx={{height:{xs:'400px',sm:'500px'},}}>
+
+          <video
+          controls={true}
+          style={{objectFit:'cover'}}
+          
+          key={video.video} muted loop autoPlay width="100%" height="100%" >
+                <source src={video.video} type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+            </Box>
+
+                    </Box>
+            })
+        }
+        
+        </Box>
+      </Container>
+
+
   </Box>
   )
 }

@@ -77,7 +77,7 @@ const NavButtom = () => {
                 <Link className='black decor-none ' href={`/`}>
 
 <Typography 
-className=' cursor center white flex gap1 black decor-none captialize'
+className=' cursor center  flex gap1 black decor-none captialize'
 id="button"
 component='p' sx={{width:'max-content',
 mx:'1em',
@@ -91,7 +91,7 @@ Home
 <Link  className='black decor-none ' href={`/gallery`}>
 
         <Typography 
-        className=' cursor center white flex gap1 black decor-none '
+        className=' cursor center  flex gap1 black decor-none '
         id="button"
         component='p' sx={{width:'max-content',
         mx:'1em',
@@ -111,7 +111,7 @@ Home
         return <Link key={i} className='black decor-none ' href={`/${i.toLocaleLowerCase()}`}>
 
         <Typography 
-        className=' cursor center white flex gap1 black decor-none '
+        className=' cursor center  flex gap1 black decor-none '
         id="button"
         component='p' sx={{width:'max-content',
         mx:'1em',

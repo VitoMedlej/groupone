@@ -3,31 +3,32 @@ import { Box, Divider, Typography } from '@mui/material'
 import React from 'react'
 
 const Perks = () => {
-    const items = [
-      {
-        title: "Premium Car Wash",
-        icon: "https://cdn-icons-png.flaticon.com/128/2211/2211425.png",
-        description: "Experience a meticulous premium car wash service that leaves your vehicle sparkling inside and out.",
-      },
-      {
-        title: "Expert Interior Detailing",
-        icon: "https://cdn-icons-png.flaticon.com/128/4822/4822165.png",
-        description: "Indulge in our expert interior detailing to rejuvenate your car's interior, ensuring a fresh and comfortable driving experience.",
-      },
-      {
-        title: " Paint Correction",
-        icon: "https://cdn-icons-png.flaticon.com/128/887/887247.png",
-        description: "Trust our professionals for paint correction, bringing back the shine and luster to your car's exterior with precision and care.",
-      },
-      {
-        title: "Headlights Restoration",
-        icon: "https://cdn-icons-png.flaticon.com/128/12988/12988569.png",
-        description: "Enhance visibility and aesthetics with our headlights restoration service, ensuring safety and a polished look.",
-      },
-   
-    ];
+  const items = [
+    {
+      title: "Advanced Technology",
+      icon: "https://cdn-icons-png.flaticon.com/128/15575/15575356.png",
+      description: "We use cutting-edge UVC rays to eliminate harmful viruses, bacteria, and contaminants, ensuring a cleaner, safer environment.",
+    },
+    {
+      title: "International Certifications",
+      icon: "https://cdn-icons-png.flaticon.com/128/6005/6005650.png",
+      description: "Certified with ISO9001/2015, ISO 22000, and CE, our services meet the highest international standards for quality and safety.",
+    },
+    {
+      title: "Comprehensive Sterilization Solutions",
+      icon: "https://cdn-icons-png.flaticon.com/128/3536/3536537.png",
+      description: "From surface disinfection to room sterilization and air purification, we offer tailored solutions for every environment.",
+    },
+    {
+      title: "Proven Expertise in Air Sterilization",
+      icon: "https://cdn-icons-png.flaticon.com/128/1644/1644350.png",
+      description: "Our air sterilization equipment cleans both indoor and outdoor air, ensuring safe, breathable spaces in residential and commercial areas.",
+    },
+ 
+  
+  ];
   return (
-    <Box sx={{pt:{xs:8,sm:12},mx:{xs:1,sm:1.5,md:2}}}>
+    <Box  className='auto flex center' sx={{maxWidth:'lg',pt:{xs:8,sm:12},mx:{xs:1,sm:1.5,md:2}}}>
         <Box  className='flex wrap gap auto row justify-between'>
 
         {

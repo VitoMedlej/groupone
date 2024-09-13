@@ -2,7 +2,7 @@ footer .container {
   background: #161e21;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 1em;
+  padding: 0.25em;
   display: flex;
   flex-direction: row;
 }
@@ -230,12 +230,12 @@ button[disabled] {
   text-decoration: underline;
 }
 .site-footer .site-footer__bottom {
-  padding: 10px 0;
+  padding: 4px 0;
   border-top: 1px solid #EBEBEB;
 }
 @media (min-width: 767px) {
   .site-footer .site-footer__bottom {
-    padding: 16px 0;
+    padding: 8px 0;
   }
 }
 .site-footer .site-footer__bottom .container {

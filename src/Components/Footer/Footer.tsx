@@ -17,7 +17,7 @@ const Footer = () => (
           
           </div>
           <Typography component='h1' sx={{ fontSize: '.95em',color:"2b2b2b" }}  className='footer-p '>
-          At Shine Plus Car Spa, we offer top-notch car care services in Lebanon. From expert car wash and interior detailing to exterior treatments, window tinting, vinyl wrap, upholstery repair, body paint, and more – trust us for a sparkling clean and well-maintained ride.
+        {`GroupOne CMI provides cutting-edge sterilization services using UVC technology to eliminate viruses, bacteria, and pollutants. Offering surface disinfection, air sterilization, and room cleaning solutions, we serve residential and commercial spaces with ISO9001/2015, ISO 22000, and CE-certified equipment. Safeguard your environment with trusted sterilization experts.`}
           </Typography>
           {/* <SMicons/> */}
 
@@ -37,10 +37,9 @@ const Footer = () => (
           <ul className=' ul-white'>
             <li className='link-title'>Site links</li>
             <li><Link  href="/">Home</Link></li>
-            {/* <li><Link href="/rental/collection">All Products</Link></li>  */}
+            <li><Link href="/services">Services</Link></li>
             <li><Link href="/terms-and-conditions">Terms & Conditions</Link></li>
             <li><Link href="/privacy-policy">Privacy Policy</Link></li>
-            <li><Link href="/services">Services</Link></li>
           </ul>
      
           <ul  className='ul-white' style={{color:'white'}}>
@@ -49,8 +48,8 @@ const Footer = () => (
             
             {/* <li><a href="https://www.facebook.com/profile.php?id=100076163602459/" target="_blank" rel="noreferrer" >Facebook</a></li> */}
             
-            <li><a href="https://www.facebook.com/shinepluscarspa/" target="_blank" rel="noreferrer" >Facebook </a></li>
-            <li><a href="https://www.instagram.com/shineplus_carspa/" target="_blank" rel="noreferrer" >Instagram</a></li>
+            <li><a href="https://www.facebook.com/GroupOne CMIcarspa/" target="_blank" rel="noreferrer" >Facebook </a></li>
+            <li><a href="https://www.instagram.com/GroupOne CMI_carspa/" target="_blank" rel="noreferrer" >Instagram</a></li>
             <li><a href={`https://wa.me/${process.env.NEXT_PUBLIC_WA}`} rel="noreferrer" target='_blank' >Whatsapp</a></li>
             <li><a href={`https://wa.me/${process.env.NEXT_PUBLIC_WA}`} rel="noreferrer" target='_blank' >+961 3 545 717</a></li>
             {/* <li><a href={`http://tiktok.com/@thecraftroomlb`} rel="noreferrer" target='_blank' >TikTok</a></li> */}

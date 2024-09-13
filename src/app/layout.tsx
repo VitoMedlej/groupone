@@ -9,8 +9,8 @@ import ContextWrapper from '@/context/Contexts'
 import ContactSection from '@/Components/ContactSection/ContactSection'
 
 export const metadata = {
-    title: 'Shine Plus Car Spa - Premier Car Care Services in Lebanon',
-    description: `At Shine Plus Car Spa, we offer top-notch car care services in Lebanon. From expert car wash and interior detailing to exterior treatments, window tinting, vinyl wrap, upholstery repair, body paint, and more – trust us for a sparkling clean and well-maintained ride.`,
+    title: 'GroupOne CMI | Advanced Sterilization & Disinfection',
+    description: `ISO-certified sterilization experts using UVC technology for surface, air, and room disinfection. Safe solutions for homes, gyms, institutions, and more.`,
     icons: {
         icon: `https://ucarecdn.com/e8c67931-1ec6-4c5a-a405-619c5f86e32a/grouponelogo.jpg`
     }

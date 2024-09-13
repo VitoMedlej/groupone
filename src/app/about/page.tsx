@@ -5,32 +5,32 @@ import React from 'react'
 
 const text = [
     `
-    Welcome to Shine Plus Car Spa, your premier destination for professional automotive care in Lebanon. At Shine Plus, we take pride in our commitment to delivering exceptional car spa services, ensuring your vehicle receives the royal treatment it deserves.
+    Welcome to GroupOne CMI, your premier destination for professional automotive care in Lebanon. At GroupOne CMI, we take pride in our commitment to delivering exceptional car spa services, ensuring your vehicle receives the royal treatment it deserves.
 `,
     `
-    With a passion for perfection and a keen eye for detail, Shine Plus Car Spa has become a trusted name in the automotive industry. Our team of skilled technicians is dedicated to enhancing the appearance and performance of your vehicle, providing a comprehensive range of services tailored to meet the unique needs of each customer.
+    With a passion for perfection and a keen eye for detail, GroupOne CMI has become a trusted name in the automotive industry. Our team of skilled technicians is dedicated to enhancing the appearance and performance of your vehicle, providing a comprehensive range of services tailored to meet the unique needs of each customer.
     `,
     `
-    What sets Shine Plus Car Spa apart is our unwavering commitment to quality and customer satisfaction. We use state-of-the-art equipment and premium products to deliver outstanding results, whether you opt for our signature car wash, paint correction, or luxurious interior detailing services. Your satisfaction is our priority, and we go the extra mile to ensure your car leaves our spa looking pristine and rejuvenated.
+    What sets GroupOne CMI apart is our unwavering commitment to quality and customer satisfaction. We use state-of-the-art equipment and premium products to deliver outstanding results, whether you opt for our signature car wash, paint correction, or luxurious interior detailing services. Your satisfaction is our priority, and we go the extra mile to ensure your car leaves our spa looking pristine and rejuvenated.
     `,
     `
-    At Shine Plus Car Spa, we understand that your vehicle is more than just a mode of transportation; it's a reflection of your personality and style. That's why we treat every car with the utmost care and attention, as if it were our own. Our team's expertise, combined with our passion for perfection, guarantees an unparalleled car spa experience that leaves a lasting shine.
+    At GroupOne CMI, we understand that your vehicle is more than just a mode of transportation; it's a reflection of your personality and style. That's why we treat every car with the utmost care and attention, as if it were our own. Our team's expertise, combined with our passion for perfection, guarantees an unparalleled car spa experience that leaves a lasting shine.
     `,
     `
     As a Lebanese brand, we take pride in contributing to the local automotive community. We strive to set new standards in car care, combining traditional Lebanese hospitality with cutting-edge techniques to provide an unmatched level of service.
  `,
     `
-    Experience the difference at Shine Plus Car Spa – where your car's beauty meets our expertise. Trust us to pamper your vehicle, and we promise to exceed your expectations, leaving you with a car that shines brighter than ever before.
+    Experience the difference at GroupOne CMI – where your car's beauty meets our expertise. Trust us to pamper your vehicle, and we promise to exceed your expectations, leaving you with a car that shines brighter than ever before.
     `,
 `    
-    Thank you for choosing Shine Plus Car Spa – Your Car's Sanctuary in Lebanon.`
+    Thank you for choosing GroupOne CMI – Your Car's Sanctuary in Lebanon.`
   
 ]
 const Index = () => {
   return (
     <Container maxWidth='lg' className='auto' sx={{mx:1,py:4}}>
            <Typography component='h1' sx={{mb:1,mx:'auto',fontSize:'3.5em',fontStyle:'italic',fontWeight:'900'}} className=" center text-center">
-            ABOUT US - Shine Plus
+            ABOUT US - GroupOne CMI
         </Typography>
         
         {/* <Box sx={{width:'100%',height:'400px'}}>

@@ -4,7 +4,7 @@ footer {
       background:#161e21;
       max-width: 1200px;
       margin: 0 auto;
-      padding: 1em;
+      padding: .25em;
       display: flex;
       flex-direction: row;
   .site-footer__top {
@@ -260,10 +260,10 @@ $breakpoint-value: map-get($breakpoints, $breakpoint);
     }
   }
   .site-footer__bottom {
-    padding: 10px 0;
+    padding: 4px 0;
     border-top: 1px solid #EBEBEB;
     @include breakpoint(phone) {
-      padding: 16px 0;
+      padding: 8px 0;
     }
     .container {
       font-size: 15px;

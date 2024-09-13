@@ -68,8 +68,6 @@ const Preloader3 = () => {
                             width:'100%'
                         }}>
                         <Container className='auto center text-center ' sx={{width:'100%'}} maxWidth='lg' disableGutters>
-                            
-                      
                             <Box sx={{pointerEvents:'none',top:0,right:0,width:'100%',
                               zIndex:1123,height:'100%',background:'black',opacity:.45}} className="absolute">
 
@@ -78,9 +76,12 @@ const Preloader3 = () => {
                             className='auto center text-center'
                             sx={{
                                 top:'50%',
-                                px:{xs:1,sm:5,md:6},
+                                width: '100%',
+                                alignItems: 'center',
+                                right: '50%',
+                                transform: `translate(50%,-50%)`,
+                                padding: 0,
                                 // maxWidth:'850px',
-                                transform:'translateY(-50%)',
                                 zIndex:123456,
                                 position:'absolute'}}>
                                                           <Typography 
@@ -93,7 +94,8 @@ const Preloader3 = () => {
                                 </Typography>
                                 <Typography 
                                 component='h1'
-                                sx={{color:'white',fontSize:{xs:'1.35em',sm:'2.1em',md:'2.15em',lg:'2.25em'},fontWeight:'600'}}>
+                                className='auto center flex'
+                                sx={{color:'white',px:1,maxWidth:'700px',fontSize:{xs:'1.35em',sm:'2.1em',md:'2.15em',lg:'2.25em'},fontWeight:'600'}}>
                              Leading the Fight Against Viruses, Bacteria & Environmental Contaminants
                                 </Typography>
                                 <Box className="flex auto">

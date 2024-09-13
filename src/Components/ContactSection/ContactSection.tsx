@@ -63,7 +63,7 @@ let url = `https://wa.me/${process.env.NEXT_PUBLIC_WA}?text=${encodeURIComponent
         </Box>
       
    
-        <Grid sx={{mb:{xs:5,sm:0}}} item xs={12} sm={6} md={5} >
+        {/* <Grid sx={{mb:{xs:5,sm:0}}} item xs={12} sm={6} md={5} >
     <Container >
         <Typography component='h1' className='clr2' sx={{fontSize:{xs:'1.75em'},my:3,fontWeight:'800'}}>
         Contact Information:
@@ -77,7 +77,7 @@ let url = `https://wa.me/${process.env.NEXT_PUBLIC_WA}?text=${encodeURIComponent
         </Typography>
   </a>
 
-  <a className='flex auto  items-center align-center gap gap1 black' href='https://www.instagram.com/shineplus_carspa/' target='_blank' rel='noopener'>
+  <a className='flex auto  items-center align-center gap gap1 black' href='https://www.instagram.com/GroupOne CMI_carspa/' target='_blank' rel='noopener'>
     
         <Typography sx={{fontSize:{xs:'1.15em'},fontWeight:'500'}}>
                     
@@ -85,7 +85,7 @@ let url = `https://wa.me/${process.env.NEXT_PUBLIC_WA}?text=${encodeURIComponent
         </Typography>
   </a>
 
-  <a className='flex auto  items-center align-center gap gap1 black' href='https://www.facebook.com/shinepluscarspa/' target='_blank' rel='noopener'>
+  <a className='flex auto  items-center align-center gap gap1 black' href='https://www.facebook.com/GroupOne CMIcarspa/' target='_blank' rel='noopener'>
     
         <Typography sx={{fontSize:{xs:'1.15em'},fontWeight:'500'}}>
                     
@@ -102,9 +102,9 @@ let url = `https://wa.me/${process.env.NEXT_PUBLIC_WA}?text=${encodeURIComponent
   
 
     </Container>
-        </Grid> 
+        </Grid>  */}
 
-        <Grid sx={{mt:{xs:2,sm:0}}} className='auto col center flex' item xs={12} sm={8} md={5.5}>
+        <Grid sx={{mt:{xs:2,sm:0}}} className='auto col center flex' item xs={12} sm={12} md={12}>
           <Typography component='h1' sx={{color:'green',fontWeight:'500',textAlign:'center'}} className='p'>{status === 200 ? 'Message Sent Successfully!' : ""}</Typography>
             <Box ref={form} onSubmit={(e : any)=>sendMessage(e)} component='form' sx={{gap:1,
           py:2.5,
