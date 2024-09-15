@@ -1,10 +1,8 @@
 "use client"
 import React from 'react'
 import { Box,  Container, Grid, Typography } from "@mui/material"
-import HomeProductCollection from './HomeProductCollection/HomeProductCollection'
 import MainCarousel from './MainCarousel/MainCarousel'
 import { useRouter } from 'next/navigation'
-import Testimonials from './Testimonials/Testimonials'
 import Btn from './Btn/Btn'
 
 const 

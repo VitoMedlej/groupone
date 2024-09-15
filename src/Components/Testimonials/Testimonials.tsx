@@ -5,7 +5,7 @@ import React from 'react'
 import {Swiper, SwiperSlide} from 'swiper/react';
 import TestimonialCard from './TestimonialCard';
 import { Autoplay } from 'swiper';
-import useLanguage from '@/Hooks/useLanguage';
+
 // import { Autoplay, Pagination } from 'swiper/modules';
 // import {FreeMode, Autoplay, Pagination} from "swiper";
 
@@ -45,7 +45,7 @@ const Testimonial = () => {
 
 
  
-  const {text} = useLanguage()
+
     
     
   return (
@@ -65,7 +65,7 @@ const Testimonial = () => {
                 flex:1,
                 fontWeight: '500'
             }}>
-              {text('Our Customers speak for us', 'عملاؤنا يتحدثون عنا')}
+              {`Our Customers speak for us`}
 
             </Typography>
             </Box>
