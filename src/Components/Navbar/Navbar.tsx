@@ -77,7 +77,7 @@ export default function Navbar() {
             <img src="https://www.svgrepo.com/show/533285/phone.svg" alt="" className="img" />
                 </Box>
             <Typography sx={{color:'black',fontSize:'.70em',textAlign:'end',fontWeight:600}}>
-            +961 3 545 717
+            +961 1 234 567
             </Typography>
             </Box>
 
@@ -87,12 +87,11 @@ export default function Navbar() {
             <img src="https://www.svgrepo.com/show/520798/instagram.svg" alt="" className="img" />
                 </Box>
             <Typography sx={{color:'black',fontSize:'.70em',textAlign:'end',fontWeight:600}}>
-            @GroupOne CMI_carspa
+            @GroupOne CMI
             </Typography>
             </Box>
             <a className='decor-none' href={`https://wa.me/${process.env.NEXT_PUBLIC_WA}`}>
             <Btn sx={{display:{xs:'none',sm:'flex'},py:.2}}>
-                                         
                                     BOOK NOW
                                   </Btn>
       </a>                        

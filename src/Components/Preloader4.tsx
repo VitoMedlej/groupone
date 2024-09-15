@@ -101,17 +101,17 @@ const Preloader4 = ({res}:{res:any}) => {
                                 <Typography 
                                 className='center auto text-center'
                                 sx={{color:'white',fontSize:{xs:'.85em',sm:'.87em'},mt:1,maxWidth:'600px'}}>
-                               Discover a range of options designed to pamper your vehicle, ensuring it radiates elegance on every road. 
+                               Discover a range of cleaning & sterilization services designed for your business, ensuring it always radiates elegance.  
 
                                 </Typography>
                                 <Box className="flex auto">
 
                                 <Btn
-                                              onClick={()=>router.push('/services')}
+                                              onClick={()=>router.push('/')}
 
                                 
                                 className='bg white borderColor ' sx={{mx:'auto',mt:3}}>
-                               View services
+                               Contact Us
                                
 
                                 </Btn>
