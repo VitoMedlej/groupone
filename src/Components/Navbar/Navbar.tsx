@@ -87,7 +87,7 @@ export default function Navbar() {
             <img src="https://www.svgrepo.com/show/520798/instagram.svg" alt="" className="img" />
                 </Box>
             <Typography sx={{color:'black',fontSize:'.70em',textAlign:'end',fontWeight:600}}>
-            @GroupOne CMI
+            @Grouponemed
             </Typography>
             </Box>
             <a className='decor-none' href={`https://wa.me/${process.env.NEXT_PUBLIC_WA}`}>
@@ -257,11 +257,11 @@ mobile
                     
                     
 
-                            <Btn
+                            {/* <Btn
                             onClick={()=>router.push('/#contactsection')}
                             >
                                 Contact Us
-                            </Btn>
+                            </Btn> */}
 
 
                             {/* <IconButton

@@ -14,8 +14,14 @@ import Btn from '../Btn/Btn';
 const Preloader3 = () => {
     const router = useRouter()
     const [imgs,setImgs] = useState([
+        {
+            img: `https://cdn-prod.medicalnewstoday.com/content/images/articles/324/324284/empty-operating-room.jpg`
+        },
       {img:`https://images.pexels.com/photos/209230/pexels-photo-209230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`},
-        {img:`https://cleanupgroup.com.au/wp-content/uploads/2024/04/gallery-7-768x1024.webp`},
+   {
+    img: `https://media.licdn.com/dms/image/D4D12AQGztWHFbDSGoA/article-cover_image-shrink_720_1280/0/1668573544008?e=2147483647&v=beta&t=tYt2QOFC5wBFsA_9L22jbrRmh6DVYveqPp1DDA3LKss`
+   },
+      {img:`https://cleanupgroup.com.au/wp-content/uploads/2024/04/gallery-7-768x1024.webp`},
         {img : `https://images.pexels.com/photos/4099469/pexels-photo-4099469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`},
         {img:`https://images.pexels.com/photos/9574408/pexels-photo-9574408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`},
      ])
@@ -96,7 +102,7 @@ const Preloader3 = () => {
                                 component='h1'
                                 className='auto center flex'
                                 sx={{color:'white',px:1,maxWidth:'700px',fontSize:{xs:'1.35em',sm:'2.1em',md:'2.15em',lg:'2.25em'},fontWeight:'600'}}>
-                             Leading the Fight Against Viruses, Bacteria & Environmental Contaminants
+                             Leading the Way in Equipping Buildings and Facilities with UVC Sterilization Technology
                                 </Typography>
                                 <Box className="flex auto">
 

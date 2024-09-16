@@ -11,22 +11,24 @@ import Btn from './Btn/Btn';
 
 
 
-const Preloader4 = ({res}:{res:any}) => {
+const Preloader3 = () => {
     const router = useRouter()
     const [imgs,setImgs] = useState([
-        {img:`https://www.iowaautospa.com/App_Themes/AutoSpa/images/Main-Auto-Spa.jpg`},
+        {
+            img: `https://cdn-prod.medicalnewstoday.com/content/images/articles/324/324284/empty-operating-room.jpg`
+        },
+      {img:`https://images.pexels.com/photos/209230/pexels-photo-209230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`},
+   {
+    img: `https://media.licdn.com/dms/image/D4D12AQGztWHFbDSGoA/article-cover_image-shrink_720_1280/0/1668573544008?e=2147483647&v=beta&t=tYt2QOFC5wBFsA_9L22jbrRmh6DVYveqPp1DDA3LKss`
+   },
+      {img:`https://cleanupgroup.com.au/wp-content/uploads/2024/04/gallery-7-768x1024.webp`},
+        {img : `https://images.pexels.com/photos/4099469/pexels-photo-4099469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`},
+        {img:`https://images.pexels.com/photos/9574408/pexels-photo-9574408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`},
      ])
      const redir = () => {
-        router.push('/')
+        router.push('/services')
      }
-    useEffect(() => {
-        console.log('res: ', res);
-    if (res && res?.MainCarousel && res?.MainCarousel?.length > 0) {
-        console.log('res?.MainCarousel: ', res?.MainCarousel);
-        // console.log('res: ', );
-        setImgs(res?.MainCarousel)
-    }
-    }, [])
+ 
     
     return (
         <Box
@@ -40,7 +42,7 @@ const Preloader4 = ({res}:{res:any}) => {
             maxHeight:{sm:'90vh',md:'700px',lg:'750px'},
             margin: '0 auto',
          
-            height : {xs:'100vh',sm:'550px',md:'100%'},
+            height : {xs:'600px',sm:'550px',md:'100%'},
              
             display: {
                 xs: 'flex'
@@ -48,13 +50,13 @@ const Preloader4 = ({res}:{res:any}) => {
             // mt:20,
         }}>
             <Swiper
-            
+              speed={700}
                 navigation={false}
                 slidesPerView={1}
                 spaceBetween={0}
                 loop={true}
                 autoplay={{
-                delay: 3000,
+                delay: 5000,
                 disableOnInteraction: true
             }}
                 modules={[Autoplay]}
@@ -72,49 +74,47 @@ const Preloader4 = ({res}:{res:any}) => {
                             width:'100%'
                         }}>
                         <Container className='auto center text-center ' sx={{width:'100%'}} maxWidth='lg' disableGutters>
-                            
-                      
-                            <Box sx={{pointerEvents:'none',top:0,right:0,width:'100%',zIndex:1123,height:'100%',background:'black',opacity:.55}} className="absolute">
+                            <Box sx={{pointerEvents:'none',top:0,right:0,width:'100%',
+                              zIndex:1123,height:'100%',background:'black',opacity:.45}} className="absolute">
 
                             </Box>
                             <Box 
                             className='auto center text-center'
                             sx={{
                                 top:'50%',
-                                px:{xs:4,sm:5,md:6},
+                                width: '100%',
+                                alignItems: 'center',
+                                right: '50%',
+                                transform: `translate(50%,-50%)`,
+                                padding: 0,
                                 // maxWidth:'850px',
-                                transform:'translateY(-50%)',
                                 zIndex:123456,
                                 position:'absolute'}}>
                                                           <Typography 
-                                                          className='clr2 center text-center auto'
-                                sx={{fontWeight:700,fontSize:{xs:'1.185em',sm:'1.2em'},mt:1,maxWidth:'600px'}}>
-                                   GroupOne CMI
+                                                          className='clr3 center text-center auto'
+                                sx={{fontWeight:900,
+                                textShadow:'1px 1px 3px #2b2b2b',
+                                fontSize:{xs:'1.085em',sm:'1.02em'},mt:1,maxWidth:'600px'}}>
+                                   GROUP ONE CMI
 
                                 </Typography>
                                 <Typography 
-                                
-                                sx={{color:'white',fontSize:{xs:'2.15em',sm:'3.1em',md:'3.65em',lg:'3.5em'},fontWeight:'900'}}>
-                             
-                           Explore GroupOne CMI Offerings
-                                </Typography>
-                                <Typography 
-                                className='center auto text-center'
-                                sx={{color:'white',fontSize:{xs:'.85em',sm:'.87em'},mt:1,maxWidth:'600px'}}>
-                               Discover a range of cleaning & sterilization services designed for your business, ensuring it always radiates elegance.  
-
+                                component='h1'
+                                className='auto center flex'
+                                sx={{color:'white',px:1,maxWidth:'700px',
+                                fontSize:{xs:'1.35em',sm:'2.1em',md:'2.15em',lg:'2.25em'}
+                                ,fontWeight:'900'}}>
+                                        Explore The Group One CMI Services
                                 </Typography>
                                 <Box className="flex auto">
 
-                                <Btn
-                                              onClick={()=>router.push('/')}
-
+                                {/* <Btn
+                                onClick={()=>redir()}
                                 
                                 className='bg white borderColor ' sx={{mx:'auto',mt:3}}>
-                               Contact Us
-                               
+                             Reach Us
 
-                                </Btn>
+                                </Btn> */}
                             
                                 </Box>
                             </Box>
@@ -138,4 +138,4 @@ const Preloader4 = ({res}:{res:any}) => {
     )
 }
 
-export default Preloader4
+export default Preloader3

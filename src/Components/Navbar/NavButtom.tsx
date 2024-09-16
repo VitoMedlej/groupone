@@ -88,7 +88,7 @@ Home
 </Typography>
 </Link>
 
-<Link  className='black decor-none ' href={`/gallery`}>
+{/* <Link  className='black decor-none ' href={`/gallery`}>
 
         <Typography 
         className=' cursor center  flex gap1 black decor-none '
@@ -100,7 +100,7 @@ Home
         fontWeight:500,fontSize:{xs:'.86em',sm:'.95em'}}}>
        Gallery
         </Typography>
-        </Link>
+        </Link> */}
 
 {
     [

@@ -30,12 +30,12 @@ const PreLoader = ({data,resImages}:any) => {
             <Typography 
                                 
                                 sx={{fontSize:{xs:'1.55em',sm:'2.1em',md:'2.65em',lg:'2.5em'},fontWeight:'900'}}>
-                What we do | Our Services
+                What We Do | Our Services
                 </Typography>
                 <Typography 
                                 className=''
                                 sx={{fontSize:{xs:'.85em',sm:'.87em'},mt:1,maxWidth:'600px'}}>
-                At Group One CMI, our advanced technology targets viruses, bacteria, and environmental pollutants, providing a healthier future for homes, businesses, and public spaces.
+               At Group One CMI, our advanced technology, including UVC sterilization, targets viruses, bacteria, and environmental pollutants, providing a healthier future for homes, businesses, and public spaces.
                 </Typography>
                 <Btn
                 onClick={()=>router.push('/services')}
@@ -181,7 +181,7 @@ const PreLoader = ({data,resImages}:any) => {
 
     <Grid sx={{pl:{xs:0,sm:4}}}  xs={12} sm={4} md={5}>
     <Typography className='clr2' sx={{fontWeight:700,fontSize:'1.15em',maxWidth:'800px',}}>
-    Swimming Pools
+    UVC Sterilization
       </Typography>
       <Typography className='white' sx={{fontWeight:900,fontSize:{xs:'2.15em',sm:'2em',md:'2.5em'},maxWidth:'800px',fontStyle:'italic',textTransform:'uppercase'}}>
       Sterilization Solutions for Every Industry
@@ -268,8 +268,27 @@ component={'p'}
 Collection of our latest video reels from our social media!
 </Typography> */}
       </Box>
-      <Box sx={{gap:'.5em'}} className='flex wrap row center   auto'>
 
+      <Box>
+      <Box
+                    
+                    sx={{maxWidth:{xs:'100%',sm:'98%',md:'98%'}}} >
+                  
+                        <Box sx={{height:{xs:'400px',sm:'500px'},}}>
+
+          <video
+          controls={true}
+          style={{objectFit:'contain'}}
+  loop  width="100%" height="100%" >
+                <source src={'./uvc.mp4'} type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+            </Box>
+
+                    </Box>
+      </Box>
+
+      <Box sx={{gap:'.5em'}} className='flex wrap row center   auto'>
         {    
 
 [
@@ -318,6 +337,7 @@ Collection of our latest video reels from our social media!
         }
         
         </Box>
+
       </Container>
 
 
