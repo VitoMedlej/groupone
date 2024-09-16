@@ -5,12 +5,9 @@ import MainCarousel from './MainCarousel/MainCarousel'
 import { useRouter } from 'next/navigation'
 import Btn from './Btn/Btn'
 
-const 
-PreLoader = ({data,resImages}:any) => {
+const PreLoader = ({data,resImages}:any) => {
   const router= useRouter();
   
-  
-
   return (
     <Box >
       <MainCarousel  />

@@ -77,7 +77,7 @@ export default function Navbar() {
             <img src="https://www.svgrepo.com/show/533285/phone.svg" alt="" className="img" />
                 </Box>
             <Typography sx={{color:'black',fontSize:'.70em',textAlign:'end',fontWeight:600}}>
-            +961 1 234 567
+            +961 3 978 119
             </Typography>
             </Box>
 
