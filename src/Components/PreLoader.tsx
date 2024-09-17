@@ -23,6 +23,121 @@ const PreLoader = ({data,resImages}:any) => {
     </Container>
 
 
+
+      
+    <Container className='center auto flex text-center col' sx={{py:8,px:1,maxWidth:'lg'}}>
+  
+    <Box sx={{pb:6}}>
+
+    <Typography className='auto text-center flex center' sx={{pt:8,pb:0,fontWeight:800,fontSize:'1.5em',maxWidth:'800px'}}>
+    Innovative UVC sterilization solutions
+      </Typography>
+      <Box
+                    
+                    sx={{maxWidth:{xs:'100%',sm:'98%',md:'98%'}}} >
+                  
+                        <Box sx={{height:{xs:'400px',sm:'500px'},}}>
+
+          <video
+          controls={true}
+          style={{objectFit:'contain'}}
+  loop  width="100%" height="100%" >
+                <source src={'./uvc.mp4'} type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+            </Box>
+
+                    </Box>
+      </Box>
+  
+ 
+      <Box className="flex row wrap">
+       
+
+      <Box  sx={{px:1,my:1,width:{xs:'100%',md:'48%'}}}  >
+<Box sx={{pt:1}}>
+  <Typography className='clr' sx={{fontWeight:700,fontSize:'1.3em',pb:1}}>
+  UVC Sterilization for Buildings and Facilities
+  </Typography>
+ 
+</Box>
+<Box sx={{height:{xs:'220px',md:'300px'}}}>
+<img src={`https://www.cooperlighting.com/b-dam/cooper-lighting/solutions/technologies/uv-c-disinfecting-products/uv-c-air-img.png`} alt="" className="img" style={{borderRadius:'3px'}} />
+</Box>
+</Box>
+
+
+
+
+<Box  sx={{px:1,my:1,width:{xs:'100%',md:'48%'}}}  >
+<Box sx={{pt:1}}>
+  <Typography className='clr' sx={{fontWeight:700,fontSize:'1.3em',pb:1}}>
+  Hospital and Medical Center UVC Disinfection Services
+  </Typography>
+ 
+</Box>
+<Box sx={{height:{xs:'220px',md:'300px'}}}>
+<img src={`https://cdn2.hubspot.net/hubfs/455757/BLOG%20-%20mobile%20disinfection.jpg`} alt="" className="img" style={{borderRadius:'3px'}} />
+</Box>
+</Box>
+
+<Box  sx={{px:1,my:1,width:{xs:'100%',md:'48%'}}}  >
+<Box sx={{pt:1}}>
+  <Typography className='clr' sx={{fontWeight:700,fontSize:'1.3em',pb:1}}>
+  UVC Sterilization for Office and Corporate Buildings
+  </Typography>
+ 
+</Box>
+<Box sx={{height:{xs:'220px',md:'300px'}}}>
+<img src={`https://www.globallightingassociation.org/images/articles/Office_-_Delta.jpg`} alt="" className="img" style={{borderRadius:'3px'}} />
+</Box>
+</Box>
+
+<Box  sx={{px:1,my:1,width:{xs:'100%',md:'48%'}}}  >
+<Box sx={{pt:1}}>
+  <Typography className='clr' sx={{fontWeight:700,fontSize:'1.3em',pb:1}}>
+  Gyms and Fitness Centers UVC Disinfection Technology
+  </Typography>
+ 
+</Box>
+<Box sx={{height:{xs:'220px',md:'300px'}}}>
+<img src={`https://images.squarespace-cdn.com/content/v1/6369476bcbaf3f5d308ee8a0/c04699db-113d-4f1e-9611-efc21d7244a9/weight+rooms.jpeg`} alt="" className="img" style={{borderRadius:'3px'}} />
+</Box>
+</Box>
+
+<Box  sx={{px:1,my:1,width:{xs:'100%',md:'48%'}}}  >
+<Box sx={{pt:1}}>
+  <Typography className='clr' sx={{fontWeight:700,fontSize:'1.3em',pb:1}}>
+  Swimming Pools UVC Purification and Sterilization
+
+  </Typography>
+ 
+</Box>
+<Box sx={{height:{xs:'220px',md:'300px'}}}>
+<img src={`https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2018/09/1200/675/swimming-pool-istock.jpg?ve=1&tl=1`} alt="" className="img" style={{borderRadius:'3px'}} />
+</Box>
+</Box>
+
+
+<Box  sx={{px:1,my:1,width:{xs:'100%',md:'48%'}}}  >
+<Box sx={{pt:1}}>
+  <Typography className='clr' sx={{fontWeight:700,fontSize:'1.3em',pb:1}}>
+  Residential Houses UVC Sterilization Solutions
+
+  </Typography>
+ 
+</Box>
+<Box sx={{height:{xs:'220px',md:'300px'}}}>
+<img src={`https://earthwiseuv.com/cdn/shop/products/GKU32applications_2_1_2048x.jpg?v=1651091484`} alt="" className="img" style={{borderRadius:'3px'}} />
+</Box>
+</Box>
+
+
+
+
+      </Box>
+    </Container>
+
         <Grid sx={{py:16,maxWidth:'lg'}} className='auto' container>
             <Grid item sm={12} md={6}>
             <Container>
@@ -232,8 +347,6 @@ const PreLoader = ({data,resImages}:any) => {
       </Grid>
     </Container>
 
-
-
 </Box>
 
 
@@ -269,24 +382,7 @@ Collection of our latest video reels from our social media!
 </Typography> */}
       </Box>
 
-      <Box>
-      <Box
-                    
-                    sx={{maxWidth:{xs:'100%',sm:'98%',md:'98%'}}} >
-                  
-                        <Box sx={{height:{xs:'400px',sm:'500px'},}}>
-
-          <video
-          controls={true}
-          style={{objectFit:'contain'}}
-  loop  width="100%" height="100%" >
-                <source src={'./uvc.mp4'} type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-            </Box>
-
-                    </Box>
-      </Box>
+   
 
       <Box sx={{gap:'.5em'}} className='flex wrap row center   auto'>
         {    
