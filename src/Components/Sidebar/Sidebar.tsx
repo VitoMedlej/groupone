@@ -62,20 +62,22 @@ export default function TemporaryDrawer({cates}:{cates:string[] | undefined}) {
 
                                 </Box>
       <List>
+  
+
       <ListItem
           sx={{fontWeight:600}}
 
-          onClick={()=>{router.push(`/rental/collection`); toggleDrawer(false)}}
+          onClick={()=>{router.push(`/`); toggleDrawer(false)}}
            disablePadding>
-              <ListItemButton sx={{py:1.5}} >
+              <ListItemButton sx={{py:1}} >
             
                   <Typography sx={{fontWeight:600}}>
-              All Cars
+             Home Page
             </Typography>
             </ListItemButton>
   
-          <Divider></Divider>
-          </ListItem> 
+
+          </ListItem>
           <ListItem
           sx={{fontWeight:600}}
 
@@ -104,20 +106,7 @@ export default function TemporaryDrawer({cates}:{cates:string[] | undefined}) {
   
 
           </ListItem>
-          <ListItem
-          sx={{fontWeight:600}}
-
-          onClick={()=>{router.push(`/gallery`); toggleDrawer(false)}}
-           disablePadding>
-              <ListItemButton sx={{py:1}} >
-            
-                  <Typography sx={{fontWeight:600}}>
-             Gallery
-            </Typography>
-            </ListItemButton>
-  
-
-          </ListItem>
+        
           
     {/* {
       !cars && cars.map(i=>{
