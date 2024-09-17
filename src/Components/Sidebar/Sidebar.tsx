@@ -108,24 +108,7 @@ export default function TemporaryDrawer({cates}:{cates:string[] | undefined}) {
           </ListItem>
         
           
-    {/* {
-      !cars && cars.map(i=>{
-        return   <ListItem key={i}
-        sx={{fontWeight:600}}
-
-        onClick={()=>{router.push(`/rental/${encodeURIComponent(i.toLocaleLowerCase())}`); toggleDrawer(false)}}
-         disablePadding>
-            <ListItemButton sx={{py:1}} >
-          
-                <Typography sx={{fontWeight:600}}>
-           {i}
-          </Typography>
-          </ListItemButton>
-
-
-        </ListItem>
-      })
-    } */}
+ 
                   {/* <Accordion sx={{border:'none',boxShadow:'none',}}>
             
                   <AccordionSummary
