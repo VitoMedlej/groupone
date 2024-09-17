@@ -7,7 +7,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { useRouter } from 'next/navigation';
 import { Autoplay } from 'swiper';
-import Btn from './Btn/Btn';
 
 
 
@@ -95,8 +94,7 @@ const Preloader3 = () => {
                                 sx={{fontWeight:900,
                                 textShadow:'1px 1px 3px #2b2b2b',
                                 fontSize:{xs:'1.085em',sm:'1.02em'},mt:1,maxWidth:'600px'}}>
-                                   GROUP ONE CMI
-
+                                  Advanced UVC sterilization solutions
                                 </Typography>
                                 <Typography 
                                 component='h1'
@@ -104,7 +102,7 @@ const Preloader3 = () => {
                                 sx={{color:'white',px:1,maxWidth:'700px',
                                 fontSize:{xs:'1.35em',sm:'2.1em',md:'2.15em',lg:'2.25em'}
                                 ,fontWeight:'900'}}>
-                                        Explore The Group One CMI Services
+                                        Explore Our Services
                                 </Typography>
                                 <Box className="flex auto">
 
