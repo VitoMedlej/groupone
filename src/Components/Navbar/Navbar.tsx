@@ -21,11 +21,8 @@ import Btn from '../Btn/Btn';
 
 
 export const categories = [
-    'Small Cars',
-    'Business Cars',
-    'Luxury Business Cars',
-    'SUVs',
-    '2 Door Cars'
+    'Home',
+    'About'
 ]
 export default function Navbar() {
     const {open, setOpen} = useDrawerContext();

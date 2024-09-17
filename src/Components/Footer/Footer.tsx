@@ -37,9 +37,8 @@ const Footer = () => (
           <ul className=' ul-white'>
             <li className='link-title'>Site links</li>
             <li><Link  href="/">Home</Link></li>
+            <li><Link  href="/about">About</Link></li>
             <li><Link href="/services">Services</Link></li>
-            <li><Link href="/terms-and-conditions">Terms & Conditions</Link></li>
-            <li><Link href="/privacy-policy">Privacy Policy</Link></li>
           </ul>
      
           <ul  className='ul-white' style={{color:'white'}}>

@@ -4,9 +4,14 @@ import { Container, Box, Typography, Divider } from '@mui/material'
 import React from 'react'
 
 const text = [
-    `Our innovative devices use the latest sterilization methods, including UVC rays and other advanced technologies, to eliminate pathogens and purify air and water systems. We are committed to safeguarding not only your personal spaces but also public areas, making us the trusted choice for high-traffic environments like hospitals, schools, offices, and leisure centers.
-    `
-]
+    "At Group One CMI, we specialize in providing advanced UVC sterilization solutions for a wide range of environments, from homes to large-scale facilities.",
+    "Our UVC technology is designed to effectively eliminate viruses, bacteria, and harmful pollutants, creating safer and healthier spaces.",
+    "Whether it's residential properties, commercial buildings, or public areas like pools, gyms, and healthcare facilities, our UVC systems ensure top-tier sterilization and cleanliness.",
+    "We are committed to delivering tailored solutions for every client, ensuring that each building and facility meets the highest standards of hygiene and safety.",
+    "With a focus on innovation and efficiency, Group One CMI leads the way in UVC sterilization technology, offering reliable protection against environmental contaminants.",
+    "Our goal is to safeguard the health of people in the places they live, work, and play, by deploying cutting-edge UVC systems across a variety of sectors.",
+    "Trust Group One CMI to provide expert UVC solutions that protect your buildings, facilities, and the people within them from invisible threats."
+  ]
 const Index = () => {
   return (
     <Container maxWidth='lg' className='auto' sx={{mx:1,py:4}}>
