@@ -101,7 +101,7 @@ const PreLoader = ({data,resImages}:any) => {
  
 </Box>
 <Box sx={{height:{xs:'220px',md:'300px'}}}>
-<img src={`https://images.squarespace-cdn.com/content/v1/6369476bcbaf3f5d308ee8a0/c04699db-113d-4f1e-9611-efc21d7244a9/weight+rooms.jpeg`} alt="" className="img" style={{borderRadius:'3px'}} />
+<img src={`https://ucarecdn.com/0fcd71df-5870-404e-857a-08737585468e/weightrooms.jpeg`} alt="" className="img" style={{borderRadius:'3px'}} />
 </Box>
 </Box>
 
